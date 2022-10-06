@@ -9,12 +9,12 @@ public class InterfaceCallBack {
     }
 }
 class LoginClickListener implements IAuthorization1{
-
     @Override
     public void sendLoginRequest() {
         System.out.println("Login request was send to server...");
     }
 }
+
 interface IAuthorization1 { // интерфейс
     void sendLoginRequest();
 }
@@ -22,6 +22,7 @@ class Button{
     IAuthorization1 iAuthorization1; // конструктор принимает интерфейс, создаем переменую
 
     public Button(IAuthorization1 action){
+
         this.iAuthorization1 = action; //
     }
     void buttonClicked(){ //метод

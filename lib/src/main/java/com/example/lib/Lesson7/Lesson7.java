@@ -7,8 +7,10 @@ public class Lesson7 {
 //        iRepository = new RepositoryImpl();
 //        iRepository.login("user name", "12345678");
 
-        Shop shop = Shop.CLOSE;
+        Shop shop = Shop.OPEN;
         System.out.println("Shop is closed");
+        System.out.println("ssqsq");
+        System.out.println("sqsqs111");
     }
 }
 enum Shop{

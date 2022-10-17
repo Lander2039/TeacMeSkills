@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.Lesson6;
 
 public class InterfaceConstant implements IAutorization {
 

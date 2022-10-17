@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.Lesson6;
 
 public class Interface {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.Lesson6;
 
 public class Belarussian extends Human {
     public static void main(String[] args){

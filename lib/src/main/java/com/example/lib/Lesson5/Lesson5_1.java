@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.Lesson5;
 
 public class Lesson5_1 {
     public static void main(String[] args){

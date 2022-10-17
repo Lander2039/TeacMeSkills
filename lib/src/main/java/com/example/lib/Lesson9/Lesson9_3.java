@@ -9,7 +9,7 @@ public class Lesson9_3 {
         if (scanner.hasNextInt()) {
             int enteredValue = scanner.nextInt();
             System.out.println("Your value is: " + enteredValue);
-        }else {
+        } else {
             System.out.println("Your inout value is wrong...");
         }
     }

@@ -36,7 +36,7 @@ public class Lesson9_5 {
                 {},
                 {}
         };
-        System.out.println("I am " + devs[0][1]+ " "+ devs[1][0]);
+        System.out.println("I am " + devs[0][1] + " " + devs[1][0]);
 
     }
 }

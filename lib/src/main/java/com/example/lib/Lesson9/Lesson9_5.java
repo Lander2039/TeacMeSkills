@@ -1,5 +1,7 @@
 package com.example.lib.Lesson9;
 
+import java.util.Arrays;
+
 public class Lesson9_5 {
     public static void main(String[] args) {
         int[][] massive2D = new int[][]{{1, 2, 3}, {4, 5, 6}};
@@ -37,6 +39,24 @@ public class Lesson9_5 {
                 {}
         };
         System.out.println("I am " + devs[0][1] + " " + devs[1][0]);
+
+        int [][] numbers23= {{3,1,4},{6,2,5},{7,9,8}};
+
+        for (int[] number1D : numbers23){
+            Arrays.sort(number1D);
+            for (int number:number1D){
+                System.out.print(number+ " ");
+//                1 3 4 2 5 6 7 8 9
+            }
+        }
+        System.out.println();
+
+        for (int[] number1D: numbers23){
+            for (int number= 0; number<number1D.length;number++){
+                System.out.print(number1D[number1D.length-1] - number);
+                //432654987
+            }
+        }
 
     }
 }

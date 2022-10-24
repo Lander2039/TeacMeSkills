@@ -18,14 +18,17 @@ public class Lesson10_8 {
         Collections.sort(arrayList, new Comparator<Person>() {
             @Override
             public int compare(Person person, Person t1) {
-                return Integer.valueOf(person.getAge()).compareTo(
-                        Integer.valueOf(t1.getAge())
+                return String.valueOf(person.getName()).compareTo(
+                        String.valueOf(t1.getName())
                 );
             }
         });
+
+
         System.out.println();
-        for (Person person : arrayList){
-            System.out.println(person.getAge());
+        for (int i = 0; i < arrayList.size(); i++) {
+            Person person = arrayList.get(i);
+            System.out.println(person.getName() + person.getAge());
         }
     }
 }

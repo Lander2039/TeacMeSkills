@@ -14,7 +14,6 @@ class ThreadClass8 extends Thread{
     public void run() {
         try {
             sleep(2000);
-
             long start = System.currentTimeMillis();
             Thread thread = Thread.currentThread();
             System.out.println("I'm run this code in: " + thread.getName() + " " + start);
